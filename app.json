@@ -10,7 +10,9 @@
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
   },
+  "stack": "heroku-20",
   "env": {
+    "BUNDLE_WITH": "postgres",
     "BUNDLE_WITHOUT": "development:test",
     "PWPUSH_MASTER_KEY": {
       "description": "Application Encryption Key",
