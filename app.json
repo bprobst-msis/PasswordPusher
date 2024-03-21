@@ -10,7 +10,7 @@
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
   },
-  "stack": "heroku-20",
+  "stack": "heroku-22",
   "env": {
     "BUNDLE_WITH": "postgres",
     "BUNDLE_WITHOUT": "development:test:noHeroku",
