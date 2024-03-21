@@ -13,7 +13,7 @@
   "stack": "heroku-20",
   "env": {
     "BUNDLE_WITH": "postgres",
-    "BUNDLE_WITHOUT": "development:test",
+    "BUNDLE_WITHOUT": "development:test:noHeroku",
     "PWPUSH_MASTER_KEY": {
       "description": "Application Encryption Key",
       "generator": "secret"
